@@ -76,7 +76,7 @@ while True:
     circle.y = circle.y + delta_y
 
     # FPS and CPU data
-    if(loop_count % 20 == 0):
+    if(loop_count % 100 == 0):
         if((this_frame - last_frame) > 0):
             fps = 1000.0/(this_frame - last_frame)
             fps_text.text = "FPS:"+str(int(fps))
